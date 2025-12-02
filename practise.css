@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background-image: url("example-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+nav{
+  text-transform: capitalize;
+  height: 3vh;        
+  width: 99.4vw;
+  background-color: #000000a8;
+  display: block;
+  border-radius: 0.5vw;
+  border: 0.3vw solid black;
+  top: 0;
+}
+
+.link1 a{
+    font-family: "Bebas Neue", sans-serif;
+    display:inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+.link2{
+  padding-left: 50vw;
+}
+
+.link2 a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+    border: 0.2vw solid white;
+}
+
+.link2 a:hover{
+  background-color: white;
+  color:black;
+  border-radius:0.3vw;
+}
+
+.link1 a:hover{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.middle-stuff {
+  position: relative;
+  top: 5vh;
+  margin-right: 25vw;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black;
+  font-size: 2vw;
+}
+
+.sub {
+  height: 3vh;
+  background-color: rgba(128, 0, 128, 0.726);
+  width: 60vw;
+  position: relative;
+  top: 2vh;
+  border: 0.3vw solid white;
+  left: 22vw;
+  text-align: center;
+}
+
+.sub a{
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-family: "Pacifico", cursive;
+  color: white;
+  position: relative;
+  bottom: 1vh;
+}
+
+.logo{
+  position: absolute;
+  margin-left: 47vw;
+}
+
+img{
+  text-shadow: 
+        -0.3vw -0.3vw 0 black,
+         0.3vw -0.3vw 0 black,
+        -0.3vw  0.3vw 0 black,
+         0.3vw  0.3vw 0 black;
+         width: 10vw;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-family: "Pacifico", cursive;
+  color: blue;
+  position: relative;
+  top: 17vh;
+  font-size: 2vw;
+  margin-left: 20vw;
+  text-shadow: -0.1vw -0.1vw 0 black, 0.1vw -0.1vw 0 black, -0.1vw 0.1vw 0 black, 0.1vw 0.1vw 0 black;
+}
+
+.direct-download{
+  background-color: #151515;
+  width: 30vw;
+  height: 12vh;
+  position: relative;
+  top: 0vh;
+  margin-left: 20vw;
+}
+
+p{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1vw;
+  margin-left: 2vw;
+}
+
+.file {
+  margin-top: 12vh;
+  position: relative;
+  top: 9vh;
+  margin-left: 42vh;
+  z-index: 20;
+}
+
+.file a{
+   text-decoration: none;
+   text-transform: capitalize;
+   font-family: "Bebas Neue", sans-serif;
+   color:greenyellow;
+   font-size: 2.2vw;
+   border: 0.3vh solid white;
+}
+
+.file a:hover{
+  background-color: white;
+  color: black;
+}
+aside{
+  float: right;
+}
+video{
+  height: 46vh;
+  width: 20vh;
+  margin-top: -29vw;
+  background-color: black;
+  border: 0.1vw solid white;
+}
