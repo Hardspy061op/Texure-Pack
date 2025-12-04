@@ -1,0 +1,181 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background-image: url("example-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav{
+  text-transform: capitalize;
+  height: 3vh;        
+  width: 100vw;
+  background-color: #000000a8;
+  border-radius: 0.5vw;
+  border: 0.3vw solid black;
+}
+
+.link1 a{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+.link2{
+  padding-left: 50vw;
+}
+
+.link2 a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+    border: 0.2vw solid white;
+}
+
+.link2 a:hover{
+  background-color: white;
+  color:black;
+  border-radius:0.3vw;
+}
+
+.link1 a:hover{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.middle-stuff {
+  position: relative;
+  top: 5vh;
+  margin-right: 25vw;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black;
+  font-size: 2vw;
+}
+
+.sub {
+  height: 3vh;
+  background-color: rgba(128, 0, 128, 0.726);
+  width: 60vw;
+  margin: 2vh auto; 
+  border: 0.3vw solid white;
+  max-width: 31.25vw;
+}
+
+.sub a{
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-family: "Pacifico", cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sub-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  text-shadow: 
+        -0.3vw -0.3vw 0 black,
+         0.3vw -0.3vw 0 black,
+        -0.3vw  0.3vw 0 black,
+         0.3vw  0.3vw 0 black;
+         width: 10vw;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-family: "Pacifico", cursive;
+  color: blue;
+  position: relative;
+  font-size: 2vw;
+  margin-left: 20vw;
+  text-shadow: -0.1vw -0.1vw 0 black, 0.1vw -0.1vw 0 black, -0.1vw 0.1vw 0 black, 0.1vw 0.1vw 0 black;
+}
+
+.direct-download{
+  background-color: #151515;
+  width: 30vw;
+  height: 12vh;
+  margin-left: 20vw;
+}
+.direct-download a{
+  text-decoration: none;
+   text-transform: capitalize;
+   font-family: "Bebas Neue", sans-serif;
+   color:greenyellow;
+   font-size: 2.2vw;
+   border: 0.3vh solid white;
+   width: 28vw;
+   display: flex;
+   justify-content: center;
+}
+.direct-download a:hover{
+  background-color: white;
+  color: black;
+}
+p{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1vw;
+  margin-left: 2vw;
+}
+
+.file {
+  margin-left: 42vh;
+  z-index: 20;
+}
+aside{
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0; 
+  /* padding-bottom: 2vh; */
+}
+video{
+  height: 35vh;
+  width: 16vh;
+  background-color: black;
+  border: 0.1vw solid white;
+  /* display: flex; */
+  /* align-self: flex-start; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-start; */
+}
