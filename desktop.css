@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.nav-toggle {
+  display: none;
+}
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.link3 img {
+  height: auto;
+  width: 1.5vw;
+  margin-right: 1.3vh;
+}
+nav {
+  text-transform: capitalize;
+  height: 3.5vh;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link1 {
+  display: flex;
+  gap: 2vh;
+  margin-left: 0.5vh;
+}
+a {
+  text-decoration: none;
+}
+.link1 a {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: font-size color 1s ease-out 0.5s ;
+}
+
+.link1 a:hover {
+  color: purple;
+  background-color: white;
+  font-size: 1.4vw;
+}
+
+.middle-stuff {
+  display: inline-block;
+  width: 35vw;
+  margin: 2vh 58vh;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: purple;
+  border: 0.2vh solid black;
+  padding: 1vh 2vw;
+}
+
+.middle-stuff h1 {
+  text-align: center;
+  color: white;
+  text-shadow: -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black,
+    -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black;
+  font-size: 2vw;
+  position: relative;
+  right: 9vh;
+}
+
+.sub {
+  height: 3vh;
+  background-color: rgba(128, 0, 128, 0.726);
+  width: 60vw;
+  margin: 2vh auto;
+  border: 0.05vw solid black;
+  max-width: 31.25vw;
+}
+
+.sub a {
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-family: "Rubik Glitch", system-ui;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: font-size color 2s ease-out 0.5s ;
+}
+.sub a:hover{
+  color: white;
+  font-size: 1.2vw;
+}
+.sub-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 16vh;
+  bottom: 2vh;
+}
+
+img {
+  text-shadow: -0.3vw -0.3vw 0 black, 0.3vw -0.3vw 0 black, -0.3vw 0.3vw 0 black,
+    0.3vw 0.3vw 0 black;
+  width: 10vw;
+  vertical-align: middle;
+}
+
+.file h2 {
+  text-transform: capitalize;
+  font-family: "Pacifico", cursive;
+  color: blue;
+  position: relative;
+  font-size: 2vw;
+  margin-left: 20vw;
+  text-shadow: -0.1vw -0.1vw 0 black, 0.1vw -0.1vw 0 black, -0.1vw 0.1vw 0 black,
+    0.1vw 0.1vw 0 black;
+}
+
+.direct-download {
+  background-color: #151515;
+  width: 30vw;
+  height: 12vh;
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+.direct-download button {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Bebas Neue", sans-serif;
+  color: greenyellow;
+  height: 5vh;
+  width: 19vw;
+  background-color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  border-color: white;
+  margin-left: 1vh;
+}
+.direct-download button:hover{
+  background: white;
+  color: black;
+}
+.direct-download p {
+  display: block;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1vw;
+  margin-left: 2vw;
+}
+.container2{
+  background-color: purple;
+  width: 100%;
+  margin-top: 15vh;
+  height: 70vh;
+}
+.images{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 2vh;
+}
+.images img{
+  margin-top: 2vw;
+  width: 22vw;
+  height: auto;
+  display: block;
+  border: 0.2vh solid white;
+}
+.container2 h1{
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2vh;
+  color: white;
+  text-shadow: -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black,
+    -0.1vw -0.1vw 0 black, -0.1vw -0.1vw 0 black;
+}
