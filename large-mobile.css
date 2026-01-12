@@ -1,0 +1,55 @@
+@media screen and (max-width: 767px) {
+  .middle-stuff {
+    margin: 3vh 8vw;
+    height: 27vh;
+    width: 81vw;
+  }
+  .sub{
+    max-width: 90.25vw;
+  }
+  .sub a{
+    font-size: 3.4vw;
+  }
+  .sub a:hover{
+    font-size: 3vw;
+  }
+  .middle-stuff h1{
+    position: relative;
+    right: 12vh;
+    font-size: 6vw;
+  }
+  .logo{
+    position: absolute;
+    left: 60%;
+    bottom: 62%;
+  }
+  .logo img{
+    width: 27vw;
+  }
+  .images{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .images img{
+    width: 45vw;
+    margin-top: 3.5vw;
+  }
+  .container2{
+    height: 100vh;
+  }
+  .direct-download{
+    margin-left: 7vw; 
+    height: 19vh;
+    width: 79vw;
+  }
+   .direct-download p {
+    font-size: 3vh;
+  }
+   .direct-download button {
+    width: 72vw;
+    height: 11vh;
+    font-size: 4vh;
+  }
+  .file h2{
+    margin-left: 7vw;
+  }
+}
